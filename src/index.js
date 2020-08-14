@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-
+// eslint-disable-next-line
+import Todo from './component/todoItem';
 ReactDOM.render(
   <React.StrictMode>
     <App />

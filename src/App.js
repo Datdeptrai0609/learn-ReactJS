@@ -1,12 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Todo from './component/todoItem';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <Todo />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -16,7 +18,6 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          test
         </a>
       </header>
     </div>
